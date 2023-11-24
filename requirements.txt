@@ -1,6 +1,0 @@
-os
-typing
-zipfile
-gzip
-tarfile
-miniFasta>=3.0.1

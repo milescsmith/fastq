@@ -1,5 +1,0 @@
-pytest>=7.1
-pytest-cov>=4.0
-mypy>=0.942
-tox>=3.24
-miniFasta>=3.0.1
