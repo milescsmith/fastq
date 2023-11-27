@@ -20,9 +20,7 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
         allow-prereleases: true
-    - name: Install dependencies
+    - name: Install and run Nox
       run: |
         python -Im pip install nox
         python -Im nox --python ${{ matrix.python-version }}
-    - name: Test with tox
-      run: nox
